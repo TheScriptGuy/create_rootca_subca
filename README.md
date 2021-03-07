@@ -30,7 +30,8 @@ DEFAULT_SUBCA_DAYS=732
 ``
 
 Which hash do you want to use for signing the certificates.
-Keep in mind that SHA-1 certificates are not trusted by many vendors any more.
+Keep in mind that SHA-1 certificates are not trusted by many vendors any more.  
+
 ``
 DEFAULT_MD="sha256"  
 ``
