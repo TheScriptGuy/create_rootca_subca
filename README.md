@@ -48,5 +48,5 @@ openssl ecparam -list_curves
 ``
 
 
-
+Special thanks to https://pki-tutorial.readthedocs.io for some guidance on how to create the openssl configuration files.
 
