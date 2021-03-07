@@ -13,9 +13,11 @@ Fields that can be edited (currently defaults to):
 
 How many days do you want the CA's to be valid for? Keeping in mind that Subordinate CA days can't be larger than Root CA Days.
 10 years + 2 days
+
 DEFAULT_ROOTCA_DAYS=3652
 
 2 years + 2 days
+
 DEFAULT_SUBCA_DAYS=732
 
 Which hash do you want to use for signing the certificates.
