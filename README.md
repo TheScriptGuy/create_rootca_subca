@@ -36,7 +36,7 @@ Keep in mind that SHA-1 certificates are not trusted by many vendors any more.
 DEFAULT_MD="sha256"  
 ``
 
-For the Elliptic Curve keys, edit EC_KEYS appropriately.
+For the Elliptic Curve keys, edit EC_KEYS appropriately.  
 ``
 EC_KEYS="secp224r1 secp384r1 secp521r1"  
 ``
