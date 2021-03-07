@@ -1,0 +1,3 @@
+# Exclude easy maintenance scripts
+./update_readme.sh
+./update_all.sh
