@@ -10,20 +10,18 @@ These scripts will help create Root and Subordinate CA's (some information can b
 Fields that can be edited (currently defaults to):
 
 ``
-ORGANIZATIONNAME="Acme Widgets Ltd."
+ORGANIZATIONNAME="Acme Widgets Ltd."  
 ORGANIZATIONALUNITNAME="Notorious Big Infosec Group (BIG)"
 ``
 
 How many days do you want the CA's to be valid for? Keeping in mind that Subordinate CA days can't be larger than Root CA Days.
 
-10 years + 2 days
-
+10 years + 2 days  
 ``
 DEFAULT_ROOTCA_DAYS=3652
 ``
 
-2 years + 2 days
-
+2 years + 2 days  
 ``
 DEFAULT_SUBCA_DAYS=732
 ``
