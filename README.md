@@ -17,32 +17,32 @@ ORGANIZATIONALUNITNAME="Notorious Big Infosec Group (BIG)"
 How many days do you want the CA's to be valid for? Keeping in mind that Subordinate CA days can't be larger than Root CA Days.
 
 10 years + 2 days  
-``
+```bash
 DEFAULT_ROOTCA_DAYS=3652  
-``
+```
 
 2 years + 2 days  
-``
+```bash
 DEFAULT_SUBCA_DAYS=732  
-``
+```
 
 Which hash do you want to use for signing the certificates.
 Keep in mind that SHA-1 certificates are not trusted by many vendors any more.  
 
-``
+```bash
 DEFAULT_MD="sha256"  
-``
+```
 
 For the Elliptic Curve keys, edit EC_KEYS appropriately.  
-``
+```bash
 EC_KEYS="secp224r1 secp384r1 secp521r1"  
-``
+```
 
 For a list of elliptic curves supported by openssl run the following command:
 
-``
+```bash
 openssl ecparam -list_curves  
-``
+```
 
 
 Special thanks to https://pki-tutorial.readthedocs.io for some guidance on how to create the openssl configuration files.
