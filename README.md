@@ -9,13 +9,10 @@ These scripts will help create Root and Subordinate CA's (some information can b
 
 Fields that can be edited (currently defaults to):
 
-``
+```bash
 ORGANIZATIONNAME="Acme Widgets Ltd."  
-``
- 
-``
 ORGANIZATIONALUNITNAME="Notorious Big Infosec Group (BIG)"  
-``
+```
 
 How many days do you want the CA's to be valid for? Keeping in mind that Subordinate CA days can't be larger than Root CA Days.
 
